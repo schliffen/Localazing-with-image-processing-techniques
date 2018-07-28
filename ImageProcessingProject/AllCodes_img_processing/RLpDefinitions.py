@@ -1,0 +1,51 @@
+#
+# characteristics
+#
+
+
+clsPath = "/path to trained data set/"
+
+# clsPath = "/home/rdr/Developments/Securidar/PTS/ml/"
+
+showBlueRect = False
+
+# define some RGB variables
+RGB_BLACK = (0.0, 0.0, 0.0)
+RGB_RED = (0.0, 0.0, 255.0)
+RGB_BLUE = (255.0, 0.0, 0.0)
+RGB_GREEN = (0.0, 255.0, 0.0)
+RGB_YELLOW = (0.0, 255.0, 255.0)
+RGB_WHITE = (255.0, 255.0, 255.0)
+
+# char detection
+MIN_PIXEL_WIDTH = 5
+MIN_PIXEL_HEIGHT = 30
+
+MIN_ASPECT_RATIO = 0.2
+MAX_ASPECT_RATIO = 1
+
+MIN_PIXEL_AREA = 200
+
+# constants for comparing two chars
+MIN_DIAG_SIZE_MULTIPLE_AWAY = 0.2
+MAX_DIAG_SIZE_MULTIPLE_AWAY = 2
+
+MAX_CHANGE_IN_AREA = 2
+
+MAX_CHANGE_IN_WIDTH = 2
+MAX_CHANGE_IN_HEIGHT = 0.3
+
+MAX_ANGLE_BETWEEN_CHARS = 15.0
+
+# other constants
+MIN_NUMBER_OF_MATCHING_CHARS = 6
+MAX_NUMBER_OF_MATCHING_CHARS = 9
+
+
+RESIZED_CHAR_IMAGE_WIDTH = 40
+RESIZED_CHAR_IMAGE_HEIGHT = 60
+
+MIN_CONTOUR_AREA = 100
+
+PLATE_WIDTH_PADDING_FACTOR = 2.3
+PLATE_HEIGHT_PADDING_FACTOR = 3.5
